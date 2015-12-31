@@ -19,3 +19,4 @@ Releases the native AudioRecord resources. The object can no longer be used and 
 ###4. RxJava架构
 ###5. EventBus
 ###6. Retrofit services
+###7. HotPatch
