@@ -20,3 +20,4 @@ Releases the native AudioRecord resources. The object can no longer be used and 
 ###5. EventBus
 ###6. Retrofit services
 ###7. HotPatch
+###8. 动态改变横竖屏
