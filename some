@@ -1,0 +1,4 @@
+1.onResume   --------------------------------------------------- Home 按键坑
+2.onWindowFocusChanged  ------------------------------- 锁屏开屏坑
+3.OnSystemUiVisibilityChangeListener ----------------- 虚拟键盘坑
+4.onConfigurationChanged -------------------------------- 虚拟键盘加旋转屏幕坑
