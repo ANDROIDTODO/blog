@@ -22,5 +22,3 @@ Releases the native AudioRecord resources. The object can no longer be used and 
 ###7. HotPatch
 ###8. 动态改变横竖屏
 
-
-[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")
