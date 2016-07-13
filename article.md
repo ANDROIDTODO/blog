@@ -1,3 +1,5 @@
 [那些值得你试试的 Android 竞品分析工具](http://www.diycode.cc/topics/159)
 
 [简书](http://jianshu.io)
+
+[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")
