@@ -1,2 +1,5 @@
 ViewConfiguration
 ViewCompat
+
+1.改变dialogFragment 的背景灰度
+           getDialog().getWindow().getAttributes().dimAmount   = ?        
