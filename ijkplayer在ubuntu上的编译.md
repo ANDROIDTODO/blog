@@ -13,7 +13,9 @@ https://dl.google.com/android/repository/android-ndk-r14b-linux-x86_64.zip
 https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip
 
 在terminal中通过wget下载sdk和ndk，下载地址默认为当前路径（wget -P 目录地址 网址 eg：wget -P /root https://xxx.xxx.xxx）
+
 下载完成之后 我们需要解压缩文件
+
 #>unzip <文件名>
 ### 4.配置Android ndk，Android sdk环境，一般我们需要vim （sudo apt-get install vim）
 ```
