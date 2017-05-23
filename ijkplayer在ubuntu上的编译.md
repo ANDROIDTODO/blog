@@ -19,21 +19,38 @@ https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip
 #>unzip <文件名>
 ### 4.配置Android ndk，Android sdk环境，一般我们需要vim （sudo apt-get install vim）
 ```
-# add these lines to your ~/.bash_profile or ~/.profile
-# export ANDROID_SDK=< your sdk path >
-# export ANDROID_NDK=< your ndk path >
+
 ```
 官方给出 /.bash_profile or ~/.profile中设置环境，我一般为了简单就直接用profile
 
-用vim打开profile 文件
-#>vim ~./profile
+用vim打开bashrc 文件
+#>sudo vim ~./bashrc
 在最后面添加：
 ```
-export ANDROID_HOME=/home/ijk/Desktop/ijkSupport
-export ANDROID_SDK=$ANDROID_HOME/tools
-export ANDROID_NDK=$ANDROID_HOME/android-ndk-r14b
+export ANDROID_SDK=/home/ijk/Desktop/ijkSupport/tools
+export ANDROID_NDK=/home/ijk/Desktop/ijkSupport/android-ndk-r14b
 ```
-sdk和ndk都在桌面的ijkSupport文件夹中
+
+esc保存退出
+
+用source命令让刚才添加的路径立即生效
+
+#>source ~./bashrc
+
+### 5.编译ijkplayer so库
+```
+cd ijkplayer-android
+git checkout -B latest k0.7.9
+
+./init-android.sh
+
+cd android/contrib
+./compile-ffmpeg.sh clean
+./compile-ffmpeg.sh all
+
+cd ..
+./compile-ijk.sh all
+```
 
 
 
