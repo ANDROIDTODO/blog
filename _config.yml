@@ -1,0 +1,8 @@
+title: Yangjun
+description: 这是杨俊在github上的第一个仓库
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-slate
+
+gems:
+  - jekyll-mentions
